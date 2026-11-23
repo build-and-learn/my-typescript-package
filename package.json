@@ -1,0 +1,19 @@
+{
+  "name": "@build-and-learn/my-typescript-package",
+  "version": "1.0.0",
+  "description": "A simple TypeScript package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
